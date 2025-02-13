@@ -11,6 +11,9 @@ kubectl create namespace roboshop
 ```
 git clone https://github.com/Lingaiahthammisetti/13.5.roboshop-mongodb.git
 ```
+```
+cd 13.5.roboshop-mongodb
+```
 
 * Login to ECR
 ```
@@ -25,6 +28,10 @@ docker build -t 730335449147.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongod
 docker push 730335449147.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.0.2
 ```
 * Now install using Helm. move to helm directory
+```
+cd helm
+```
+
 ```
 helm upgrade --install mongodb . -n roboshop
 ```
