@@ -8,6 +8,10 @@ aws eks update-kubeconfig --region us-east-1 --name roboshop-dev
 ```
 kubectl create namespace roboshop
 ```
+```
+https://github.com/Lingaiahthammisetti/13.5.roboshop-mongodb.git
+```
+
 * Login to ECR
 ```
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 730335449147.dkr.ecr.us-east-1.amazonaws.com
