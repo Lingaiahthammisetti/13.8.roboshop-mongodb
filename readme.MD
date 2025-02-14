@@ -9,10 +9,10 @@ aws eks update-kubeconfig --region us-east-1 --name roboshop-dev
 kubectl create namespace roboshop
 ```
 ```
-git clone https://github.com/Lingaiahthammisetti/13.5.roboshop-mongodb.git
+git clone https://github.com/Lingaiahthammisetti/13.9.roboshop-mongodb.git
 ```
 ```
-cd 13.5.roboshop-mongodb
+cd 13.9.roboshop-mongodb
 ```
 
 * Login to ECR
