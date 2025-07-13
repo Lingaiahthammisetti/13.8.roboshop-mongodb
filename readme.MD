@@ -21,11 +21,11 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 ```
 * Build MongoDB image.
 ```
-docker build -t 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.0.2 .
+docker build -t 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.1.1 .
 ```
 * Push image
 ```
-docker push 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.0.2
+docker push 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.1.1
 ```
 * Now install using Helm. move to helm directory
 ```
